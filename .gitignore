@@ -1,6 +1,5 @@
-node_modules/
-.env
-.env.*
-!.env.example
+# Make sure it blocks the dist folder, not your vite configurations
 dist/
-build/
+node_modules/
+server/.env
+.env.*
